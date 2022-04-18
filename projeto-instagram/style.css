@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    color: #69b9ff;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 88%;
+    justify-content:center;
+    margin: auto 0;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.smartphone {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 36%;
+    
+    
+}
+
+#phone {
+    max-height: 48rem;
+    min-height: 36rem;
+    margin-right: 24px;
+}
+
+.box-conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 24rem;
+    min-height: 38rem;
+    
+    
+}
+.caixas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.3rem 0;
+    width: 100%;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 5px 16px 0px lightgrey;
+    margin: 10px;
+}
+
+
+#logo-texto {
+    width: 58%;
+    align-self: center;
+    margin: 18px;
+}
+
+section {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    height: 26rem;
+}
+input {
+    margin: 3px;
+    height: 2.25rem;
+    text-align: left;
+    width: 74%;
+    align-self: center;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    border-radius: 3%;
+    font-size: 12px;
+    padding: 2px;
+}
+
+button {
+    margin: 1rem 0.5rem;
+    background-color: #69b9ff;
+    color: aliceblue;
+    border: 1px solid transparent;
+    height: 1.8rem;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 74%;
+    align-self: center;
+    padding: 5px;
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px 0px lightgray, inset 4px 4px 15px 0px transparent, 5px 5px 15px 5px lightgrey;
+}
+
+#ou {
+    font-size: 10px;
+    color: gray;
+    width: 74%;
+}
+
+.caixas3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.mae {
+   display: flex;
+   flex-direction: row; 
+   
+}
+
+.box-button-download {
+    max-width: 100%;
+    margin: 10px;
+    height: 40px;
+}
+
+@media (max-width: 870px){
+
+    .smartphone {
+        display: none;
+    }
+    .box-conteiner{
+        width: 80%;
+        min-width: 300px;
+        max-width: 300px;
+    }
+    .box-button-download {
+        max-width: 80%;
+        margin: 10px;
+    }   
+
+
+}
